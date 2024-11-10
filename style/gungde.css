@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.container h2 {
+    padding-left: 110px;
+    font-size: 30px;
+}
+
+.container a {
+    text-decoration: none;
+    gap: 5px;
+    color: black;
+    padding: 10px;
+    display: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: blue;
+}
+
+.container p {
+    padding: 10px;
+    border: 1px;
+    border-radius: 14px;
+    background-color: #F8A401;
+    font-size: large;
+    display: inline-block;
+    margin-right: 110px;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    display: none;
+}
+
+.judul {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+.judul span {
+    color: #888;
+}
+
+.content {
+    display: flex; 
+    justify-content: center; 
+    margin: 20px; 
+}
+.content img {
+    max-width: 80%; 
+    height: auto; 
+}
+
+.experience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.judul2 h2 {
+    font-size: 50px
+}
+
+.judul2 p {
+    font-size: 20px;
+}
+
+.judul3 h2 {
+    font-size: 50px;
+}
+
+.judul3 p {
+    font-size: 20px;
+}
+
+.teks p {
+    font-size: 20px;
+    flex-direction: row;
+}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.logo img {
+    margin-left: 120px;
+}
+
+.logo p {
+    border: 1px;
+    background-color: #F8A401;
+    height: 30px; 
+    width: 120px;
+    text-align: center;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
